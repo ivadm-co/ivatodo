@@ -1,0 +1,12 @@
+body {
+    background-color: #9b9b9b;
+    font-family:'Courier New', Courier, monospace
+  }
+
+a:link {
+    color: rgb(100, 100, 100);
+  }
+
+a:visited {
+    color: rgb(80, 80, 80);
+  }

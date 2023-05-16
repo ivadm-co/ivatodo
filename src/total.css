@@ -1,12 +1,23 @@
 body {
-    background-color: #9b9b9b;
-    font-family:'Courier New', Courier, monospace
+    background-color: rgb(68, 92, 73);
+    color: rgb(255, 255, 255);
+    font-family: system-ui;
+    font-size: 20px;
+    text-align: center;
   }
 
-a:link {
-    color: rgb(100, 100, 100);
+button {
+    transition-duration: 0.4s;
+    background-color: rgb(86, 117, 92);
+    border: 2px solid rgb(47, 65, 51);
+    font-size: 15px;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    font-family: system-ui;
   }
-
-a:visited {
-    color: rgb(80, 80, 80);
+  
+button:hover {
+    background-color: rgb(47, 65, 51);
+    color: white;
   }

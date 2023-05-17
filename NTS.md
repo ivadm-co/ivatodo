@@ -1,2 +1,2 @@
 Note to self - 
-    Watch that one todo vid
+    Watch that one todo vid *and understand it*

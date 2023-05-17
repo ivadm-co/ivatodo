@@ -3,9 +3,10 @@ import TodoList from './TodoList'
 import { v4 as uuidv4 } from 'uuid';
 import './total.css';
 
+
 const LOCAL_STORAGE_KEY = 'todoApp.todos'
 
-function App() {
+function App(e) {
   const [todos, setTodos] = useState([])
   const todoNameRef = useRef()
 
@@ -49,5 +50,4 @@ function App() {
     </>
   )
 }
-
-export default App;
+export default App

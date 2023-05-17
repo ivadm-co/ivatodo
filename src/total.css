@@ -21,3 +21,9 @@ button:hover {
     background-color: rgb(47, 65, 51);
     color: white;
   }
+
+button:active {
+  background-color:rgb(34, 47, 37);
+  border: 2px solid rgb(34, 47, 37);
+  color: white;
+}

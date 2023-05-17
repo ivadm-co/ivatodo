@@ -3,16 +3,21 @@ import ReactDOM from 'react-dom';
 import Home from './App';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Contact from './Contact';
+import Layout from './Layout';
 
-export default function Design() {
+export default function App() {
     return(
-        <BrowserRouter>
+       <>
+        <div>
+             <BrowserRouter>
             <Routes>
                 <Route index element={<Home />} />
-                <Route path="contact" element={<Contact />}/>
+                <Route path="contact" element={<Contact />} />
             </Routes>
         </BrowserRouter>
+       </div>
+        </>
     )
 }
 
-ReactDOM.render(<Design />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

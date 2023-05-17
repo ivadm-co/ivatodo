@@ -6,7 +6,7 @@ import './total.css';
 
 const LOCAL_STORAGE_KEY = 'todoApp.todos'
 
-function App(e) {
+function Home(e) {
   const [todos, setTodos] = useState([])
   const todoNameRef = useRef()
 
@@ -50,4 +50,4 @@ function App(e) {
     </>
   )
 }
-export default App
+export default Home

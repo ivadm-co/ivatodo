@@ -1,5 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import App from './App';
+import App from './lesp/App';
+import Form from './lesp/Form';
+import Typing from './Typing';
 
 
 function Home() {
@@ -9,8 +11,10 @@ function Home() {
      <BrowserRouter>
        <Routes>
            <Route index element={<HomeContent />} />
-           <Route path="les1" element={<App />} />
-           <Route path="les2" element={null}/>
+           <Route path="todo" element={<App />} />
+           <Route path="colr" element={<Wip/>}/>
+           <Route path="form" element={<Form/>}/>
+           <Route path="usrf" element={<Typing/>}/>
            {/* <Route path="excercise1" element={<Excercise1 />} /> */}
            <Route path="*" element={<NoPage />} />
        </Routes>
@@ -26,6 +30,12 @@ function HomeContent() {
    );
 }
 
+function Wip() {
+  return(
+    <div> This page is still under construction. Try again [NEXT INTEREST SPIKE] </div>
+  )
+}
+
 
 function NoPage() {
     return (
@@ -38,8 +48,10 @@ function LearningList() {
  return (
    <>
      <a href = "/">Home</a>
-     <a href="les1">Lesson 1</a>
-     <a href="les2">Lesson 2</a>
+     <a href="todo">TodoList</a>
+     <a href="colr">Text colors</a>
+     <a href="form">Information Form</a>
+     <a href="usrf">Typing</a>
      <hr />
    </>
  )

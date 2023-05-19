@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import App from './lesp/App';
 import Form from './lesp/Form';
-import Typing from './Typing';
+import Typing from './lesp/Typing';
 
 
 function Home() {
